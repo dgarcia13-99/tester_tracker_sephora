@@ -1,7 +1,7 @@
 class HomeController < ApplicationController
 
 def introduction
-  render({:plain => "hello!"})
+  render({:plain => "testing repository environment"})
 
 end
 

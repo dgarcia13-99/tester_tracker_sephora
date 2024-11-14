@@ -1,10 +1,5 @@
 class HomeController < ApplicationController
-
 def introduction
-  render({:plain => "testing repository environment"})
-
+  render({ plain: "testing repository environment, second test" })
 end
-
-
-
 end
